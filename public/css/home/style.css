@@ -1,6 +1,6 @@
 #header {
     /*margin-top: 120px;*/
-    background: url('/img/bg.jpg');
+    background: url("/img/bg.jpg");
 
     background-size: cover;
     min-height: 100%;
@@ -56,26 +56,53 @@
     border-top: solid 2px #ffffff;
 }
 
-#works {
+#websites {
+    padding-top: 10%;
+    padding-bottom: 5%;
     position: relative;
 }
 
-#works .works-header {
-    margin-top: 30px;
-}
-
-#works .nav-item {
-    margin-left: 67px;
-
-}
-
-#works .nav-link.active {
+#websites h2 {
+    font-family: SFProDisplay;
+    font-size: 60px;
     color: #4454ff;
-    border-bottom: solid 2px #4454ff;
 }
 
-#works .nav-link {
-    color: #bdbdbd;
+#websites .content-header {
+    margin-bottom: 10%;
+    color: #22415c;
+    font-family: SFProDisplay;
+    font-size: 30px;
+
+}
+
+#websites .content-des {
+    margin-bottom: 10%;
+    font-family: SFProDisplay;
+    font-size: 16px;
+    color: #6e717f;
+}
+
+#websites .web-img {
+    position: absolute;
+    top: 12px;
+    left: 150px;
+    z-index: 2;
+    width: 645px;
+    height: 540px;
+
+}
+
+#websites .computer-img {
+    position: absolute;
+    z-index: 1;
+    width: 795px;
+    height: 615px;
+}
+
+#websites .websites-container {
+    position: relative;
+
 }
 
 .section-title {
