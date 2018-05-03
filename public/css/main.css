@@ -4,8 +4,8 @@ body, html {
 }
 
 nav {
-    height: 150px;
-    background-color: transparent;
+    height: 100px;
+    background-color: #4454ff;;
 }
 
 nav .right-items {
@@ -21,7 +21,7 @@ nav .navbar-brand {
 }
 
 @media (max-width: 768px) {
-    nav .navbar-brand{
+    nav .navbar-brand {
         margin-left: 5px;
     }
 }
@@ -49,6 +49,6 @@ nav #navbarColor03 .nav-link {
     color: #fff;
 }
 
-nav .navbar{
+nav .navbar {
     border-bottom: none;
 }
