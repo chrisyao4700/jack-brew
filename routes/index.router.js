@@ -3,18 +3,17 @@ var router = express.Router();
 
 /* GET home page. */
 router.get('/', function (req, res, next) {
-    res.redirect('/website')
-});
-
-router.get('/:tab', (req, res, next) => {
     res.render('home/page_root.ejs', {
         title: 'JACK - BREW',
-        tab: req.params.tab
     });
 });
 
 
-router.get('/:tab/:index', (req, res, next) => {
+router.get('/:project', (req, res, next) => {
+    res.render('detail/' + req.params.project + '/page_root.ejs', {
+        title: 'JACK - BREW',
+    });
+
 });
 
 module.exports = router;

@@ -84,34 +84,50 @@
 }
 
 #websites .web-img {
-    width: 100%;
-    height: 100%;
+    width: 73%;
+    top: 3%;
+    right: 0;
+    position: absolute;
+
+    z-index: 2;
 
     /*margin-top: -100%;*/
     /*background-color: transparent;*/
 }
 
 #websites .computer-img {
-    width: 80%;
-    height: 95%;
-    top: 3%;
+    padding-left: 10%;
+    /*width: 90%;*/
     right: 0;
-    position: absolute;
-
+    margin-right: 0;
+    z-index: 1;
     /*background-color: turquoise;*/
 
 }
 
 #websites .websites-container {
     position: relative;
-
     width: 100%;
     height: 100%;
 }
 
+#websites .web-info {
+    padding-top: 5%;
+}
+
 #apps {
+
     position: relative;
-    padding-top: 10%;
+    width: 100%;
+    padding-top: 5%;
+}
+
+#apps .row {
+    margin: 0 0;
+}
+
+#apps .apps-info {
+    margin-top: 15%;
 }
 
 #apps .apps-holder {
@@ -119,10 +135,11 @@
 }
 
 #apps .glass-holder {
+    display: none;
     margin-top: 10%;
     padding: 5%;
-    width: 60%;
-    height: 60%;
+    width: 80%;
+
 }
 
 #apps .apps-holder {
@@ -135,23 +152,25 @@
 }
 
 #apps .app-1 {
+    margin-left: -10%;
     margin-top: 5%;
-    width: 45%;
+    width: 55%;
 }
 
 #apps .app-2 {
-
-    width: 45%;
-    margin-left: -10%;
-
+    width: 55%;
+    margin-left: -18%;
 }
 
 #apps .app-3 {
-    width: 45%;
+    width: 50%;
     margin-top: 22%;
-    margin-left: -24%;
-    margin-right: -10%;
+    margin-left: -32%;
+    margin-right: 0;
+}
 
+#apps .apps-img-holder {
+    padding-right: 0;
 }
 
 .section-title {
@@ -163,7 +182,7 @@
 
 #about {
     position: relative;
-    padding-top: 8%;
+    padding-top: 5%;
     margin-bottom: 5%;
 }
 
@@ -201,7 +220,8 @@
     color: #ffffff;
     margin-right: 10px;
 }
-#contact ul{
+
+#contact ul {
     padding-left: 0;
 }
 
@@ -212,5 +232,13 @@
 
     #websites .website-img-holder, .apps-img-holder .about-img-holder {
         padding-top: 5%;
+    }
+
+    .section-header, .content-header, .content-des {
+        padding-left: 20px;
+    }
+
+    .content-btn, .learn-more, .contact-content, .contact-icon {
+        margin-left: 20px;
     }
 }

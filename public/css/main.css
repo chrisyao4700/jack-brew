@@ -52,3 +52,21 @@ nav #navbarColor03 .nav-link {
 nav .navbar {
     border-bottom: none;
 }
+
+.cy-divider-holder {
+    margin-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 20px;
+    border-bottom: 1px solid #979797;
+    text-align: center;
+}
+
+.cy-divider {
+    font-size: 20px;;
+    background-color: #f8f8f8;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
